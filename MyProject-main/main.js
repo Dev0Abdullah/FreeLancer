@@ -70,7 +70,7 @@ function FarbeinTable() {
             quoteChar: '"',
             header: false,
           });
-          const correctAnswers = parsedData.data.slice(1); // استبعاد السطر الأول (الرأس)
+          const correctAnswers = parsedData.data.slice(1);
 
           const tableBody = document.getElementById("table-body");
           for (let i = 0; i < correctAnswers.length; i++) {
